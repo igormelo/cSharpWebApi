@@ -7,14 +7,10 @@ namespace Desafio.Models
 {
     public class Country
     {
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public string Presidente { get; set; }
-        public string Bandeira { get; set; }
-        public Country()
-        {
-
-        }
+        public virtual int Id { get; set; }
+        public virtual string Nome { get; set; }
+        public virtual string Presidente { get; set; }
+        public virtual string Bandeira { get; set; }
     }
 
 }
